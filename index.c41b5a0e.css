@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  font-family: poppins, sans-serif;
+  overflow-x: hidden;
+}
+
+.wgl {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+nav {
+  color: #fff;
+  z-index: 2;
+  justify-content: space-between;
+  padding: 4rem 8rem;
+  display: flex;
+  position: relative;
+}
+
+nav a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav ul {
+  gap: 2rem;
+  list-style: none;
+  display: flex;
+}
+
+.title {
+  color: #fff;
+  z-index: 2;
+  font-size: 2rem;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+}
+/*# sourceMappingURL=index.c41b5a0e.css.map */
